@@ -4,31 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Attribute Selectors </title>
+    <title> Attribute Valus StatedWith ^ </title>
     <style>
-        [href]{
+        [target*="_bl"]{
             border: 5px solid red;
-            font-size: larger;
         }
-        [control]{
-            border:5px solid red;
+        [src*="./HP"]{
+            border: 5px solid red;
         }
-        [alt]{
-            border:5px solid red;
+        [ src*="./M"]{
+            border: 5px solid red;
         }
-        [type]{
-            border:5px solid red;
+        [src*="./p"]{
+            border: 5px solid red;
         }
-        [src]{
-            border:5px solid red;
+        [type*="text"]{
+            border: 5px solid red;
         }
     </style>
 </head>
 <body>
-    <a href="https://www.google.co.in/webhp?tab=rw">Google</a> <br><br>
+    <a href="https://www.google.co.in/webhp?tab=rw" target="_blank">Google</a> <br><br>
     <img src="./HP-Logo.jpg" alt="Logo" width="25%" height="25%"><br><br>
     <video src="./Mountains - 81945.mp4" controls width="25%" height="25%"></video> <br><br>
     <audio src="./pulse-red-hydra-120bpm-d-cinematic-trailer-sound-effects-125406.mp3" controls></audio><br><br>
-    <input type="text">
+    <input type="text" name="UseeName">
 </body>
 </html>
