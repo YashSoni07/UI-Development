@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid;
+            margin-bottom: 50px;
+            padding: 10px;
+        }
+        div:first-child:hover{
+            /* Moving X axis */
+            /* transform: translate(100px); */
+
+            /* Moving X nd y axis */
+            /* transform: translate(100px, 300px); */
+
+            /* Moving y axis */
+            transform: translate(300px);
+        }
+        
+        /* For Zooming we use Scale( width, hight ) */
+        div:nth-child(2):hover{
+            transform: scale(1,2);
+        }
+        
+        /* For Roating in x nd y axis of the element we use skew() */
+        div:nth-child(3):hover{
+            transform: skew(2deg, 2deg);
+        }
+
+        /* For Roting the elemnet in 360 degree angle we use rotate() */
+        div:last-child:hover{
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+</body>
+</html>

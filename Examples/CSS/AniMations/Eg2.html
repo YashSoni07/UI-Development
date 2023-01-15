@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid;
+            padding: 5px;
+
+            /* transition-property:border , backgeound-color;
+            transition-duration: 2s, 2ps;
+            transition-delay: 2s, 2s;
+            transition-timing-function: linear, ease-in, ease-out; */
+
+            /* Manaly */
+            --webkit-transition-property:border;
+            --webkit-transition-dalay:2s;
+            --webkit-transition-duration:2s;
+            --webkit-transition-timing-fanction:linear;
+
+            transition-property: border, background-color;
+            transition-duration: 2s,2s,2s;
+            transition-duration: 2s,2s,2s;
+            transition-timing-function: linear;
+        }
+        div:hover{
+            /* border: 5px solid;
+            background-color: aquamarine; */
+
+            /* Manaly */
+            border: 5px solid;
+            border-width: 5px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div>Hello...!</div>
+</body>
+</html>
