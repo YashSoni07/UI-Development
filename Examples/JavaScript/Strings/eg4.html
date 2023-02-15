@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        userName = 'Yash Soni'
+
+        // CharAt(Index)
+        console.log(userName.charAt(5));
+        console.log(userName.charAt(12));
+
+        // Concat()
+        fistName = 'Yash'
+        lastName = 'Soni'
+        console.log(fistName + " "+ lastName);
+        console.log(fistName.concat(lastName));
+        console.log(fistName+lastName);
+
+        // Includes()
+        console.log(fistName.includes('Y'));
+        console.log(fistName.includes('y'));
+
+        // IndexOf() and lastIndexOf()
+        userCity = "Hyderabad"
+        console.log(userCity.indexOf('H'));
+        console.log(userCity.indexOf('d'));
+        console.log(userCity.lastIndexOf('d'));
+        console.log(userCity.indexOf('d',5));
+        console.log(userCity.indexOf('z'));
+
+        // Replace()
+        console.log(userCity.replace('Hyderabad', 'Jabalpur'));
+
+        // ReplaceAll()
+        program = "python is a programming language"
+        console.log(program.replaceAll('p', 'P'));
+
+        // ToUpperCase() nd ToLowerCase()
+        console.log(program.toUpperCase());
+        console.log(program.toLowerCase());
+    </script>
+
+</body>
+</html>

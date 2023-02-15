@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // Literal
+    userName = 'Yash Soni'
+    console.log(userName);
+    console.log(typeof(userName));
+
+    // Constructor
+    uName = String("Yash Soni")
+    console.log(uName);
+    console.log(typeof(uName));
+
+    // Length
+    console.log(uName.length);
+
+    // Index Position
+    console.log(uName[0]);
+    console.log(uName[1]);
+    console.log(uName[2]);
+    console.log(uName[3]);
+
+    // For Loop
+    for(var i = 0; i<9;i++){
+        console.log(userName);
+    }
+
+    // For In
+    for(let i in uName){
+        console.log(i,uName[i]);
+    }
+
+    // For Each
+    [userName].forEach(element => {
+        console.log(element);
+    });
+    </script>
+</body>
+</html>
